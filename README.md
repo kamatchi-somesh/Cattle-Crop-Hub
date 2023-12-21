@@ -51,7 +51,9 @@ npm install
 3. Create a `.env` file in the root directory with the necessary environment variables:
 
 ```
-REACT_APP_SERVER_DOMAIN=your-server-domain
+REACT_APP_SERVER_DOMIN =
+REACT_APP_ADMIN_EMAIL =
+REACT_APP_STRIPE_PUBLIC_KEY =
 ```
 
 ## Usage
@@ -59,16 +61,8 @@ REACT_APP_SERVER_DOMAIN=your-server-domain
 1. Start the development server:
 
 ```bash
+cd backend
 npm start
 ```
 
 2. Open your browser and visit [http://localhost:3000](http://localhost:3000).
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute, please follow our [contributing guidelines](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
